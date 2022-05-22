@@ -1,0 +1,33 @@
+:root {
+  @apply min-w-[320px];
+  --h-screen: calc(100 * var(--vh, 1vh));
+}
+
+@page {
+  size: A4;
+  margin: 0;
+}
+
+html {
+  @apply bg-white text-gray-800;
+}
+
+html.dark {
+  @apply bg-zinc-900 text-white;
+}
+
+@media print {
+  #app {
+    @apply w-[210mm] h-[297mm] py-[5mm] pl-[20mm] pr-[5mm];
+  }
+}
+
+@media screen {
+  body {
+    @apply h-$h-screen sm:p-8;
+  }
+
+  #app {
+    @apply max-w-screen-md h-full mx-auto;
+  }
+}
