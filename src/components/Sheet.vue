@@ -34,7 +34,7 @@ const color = "rgb(240, 138, 75)";
         <div class="heading p-3">
           Dein Lieblingssüßgebäck, das ich selber backen kann.
         </div>
-        <div class="heading p-3">Welches Tier wäre ich und warum?</div>
+        <div class="heading p-3">Welches Tier wäre Heidi und warum?</div>
       </div>
     </div>
 
