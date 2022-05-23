@@ -1,4 +1,4 @@
-# Konfiblatt
+# Gästebucheintrag
 
 ## Prerequisites
 
